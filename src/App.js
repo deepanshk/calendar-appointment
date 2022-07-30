@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import FullCalendar from "@fullcalendar/react"; // must go before plugins
 import interactionPlugin from "@fullcalendar/interaction"; // needed for dayClick
@@ -118,9 +118,6 @@ export default function App() {
 								type="number"
 								placeholder="Phone Number"
 							/>
-						</Form.Group>
-						<Form.Group className="mb-3" controlId="formBasicCheckbox">
-							<Form.Check type="checkbox" label="Check me out" />
 						</Form.Group>
 					</Form>
 				</AddEditAppointment>
